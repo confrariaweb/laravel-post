@@ -1,0 +1,41 @@
+{
+  "name": "confrariaweb/laravel-post",
+  "version": "dev-master",
+  "description": "Laravel post package",
+  "keywords": [
+    "post",
+    "framework",
+    "laravel"
+  ],
+  "license": "MIT",
+  "type": "package",
+  "authors": [
+    {
+      "name": "Rafael Zingano",
+      "email": "confrariaweb@gmail.com"
+    }
+  ],
+  "require": {
+    "confrariaweb/laravel-option": "dev-master",
+    "confrariaweb/laravel-user": "dev-master",
+    "confrariaweb/laravel-vendor": "dev-master",
+    "yajra/laravel-datatables-oracle": "~9.0"
+  },
+  "autoload": {
+    "files": [
+      "src/Helpers/sections.php"
+    ],
+    "psr-4": {
+      "ConfrariaWeb\\Post\\": "src",
+      "ConfrariaWeb\\Post\\Databases\\Seeds\\": "databases/Seeds"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ConfrariaWeb\\Post\\Providers\\PostServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
