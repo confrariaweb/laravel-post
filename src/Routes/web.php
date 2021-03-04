@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+/*
 Route::middleware(['web'])
     ->namespace('ConfrariaWeb\Post\Controllers\Frontend')
     ->prefix('posts')
@@ -53,3 +53,4 @@ Route::middleware(['web', 'auth'])
 
         Route::resource('posts', 'PostController');
     });
+*/

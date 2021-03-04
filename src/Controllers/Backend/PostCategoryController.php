@@ -1,6 +1,6 @@
 <?php
 
-namespace ConfrariaWeb\Post\Controllers;
+namespace ConfrariaWeb\Post\Controllers\Backend;
 
 use ConfrariaWeb\Post\Requests\StoreCategoryPostRequest;
 use ConfrariaWeb\Post\Requests\UpdateCategoryPostRequest;
